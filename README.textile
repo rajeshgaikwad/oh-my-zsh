@@ -1,7 +1,7 @@
 This is fork of @oh-my-zsh@ feel free to change it
 
 
-bq. "OH MY ZSHELL!" This is a fork of 
+bq. "OH MY ZSHELL!" 
 
 h2. Setup
 
