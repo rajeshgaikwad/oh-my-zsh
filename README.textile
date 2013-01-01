@@ -11,6 +11,10 @@ h3. The automatic installer... (do you trust me?)
 
 You can install this via the command line with either `curl` or `wget`.
 
+h4. via `git`
+
+git clone  git@github.com:rajeshgaikwad/oh-my-zsh.git 
+
 h4. via `curl`
 
 @curl -L https://github.com/rajeshgaikwwad/oh-my-zsh/raw/master/tools/install.sh | sh@
