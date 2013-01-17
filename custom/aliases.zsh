@@ -6,6 +6,9 @@
 
 # heroku
 alias hpush='git push heroku master'
+alias hcon='heroku run consloe'
+alias hps='heroku ps'
+alias hmig='heroku run rake db:migrate'
 
 # general shortcuts
 alias ..='cd ..'
