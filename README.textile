@@ -28,5 +28,7 @@ the "refcard":http://www.bash2zsh.com/zsh_refcard/refcard.pdf is pretty tasty fo
 
 
 
+To upgrade directly from the command line, just run @upgrade_oh_my_zsh@
+
 
 Thank you so much!
