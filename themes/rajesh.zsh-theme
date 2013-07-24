@@ -1,11 +1,16 @@
-# user, host, full path, and time/date
-# on two lines for easier vgrepping
-# entry in a nice long thread on the Arch Linux forums: http://bbs.archlinux.org/viewtopic.php?pid=521888#p521888
-PROMPT=$'%{\e[0;34m%}%B┌─[%b%{\e[0m%}%{\e[1;32m%}%n%{\e[1;30m%}@%{\e[0m%}%{\e[0;36m%}%m%{\e[0;34m%}%B]%b%{\e[0m%} - %b%{\e[0;34m%}%B[%b%{\e[1;37m%}%~%{\e[0;34m%}%B]%b%{\e[0m%} - %{\e[0;34m%}%B[%b%{\e[0;33m%}'%D{"%a %b %d, %I:%M"}%b$'%{\e[0;34m%}%B]%b%{\e[0m%}
-%{\e[0;34m%}%B└─%B[%{\e[1;35m%}$%{\e[0;34m%}%B] <$(git_prompt_info)>%{\e[0m%}%b '
-PS2=$' \e[0;34m%}%B>%{\e[0m%}%b '
-ZSH_THEME_GIT_PROMPT_PREFIX=" on %{$fg[magenta]%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%}!"
-ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[green]%}?"
+local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
+
+PROMPT='\
+%{$fg[green]%}%c \
+$(git_prompt_info)\
+%{$fg[red]%}%(!.#.»)%{$reset_color%} '
+PROMPT2='%{$fg[red]%}\ %{$reset_color%}'
+RPS1='%{$fg[cyan]%}%~%{$reset_color%} ${return_code} '
+
+
+ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}:: %{$fg[yellow]%}("
+ZSH_THEME_GIT_PROMPT_SUFFIX=")%{$reset_color%} "
 ZSH_THEME_GIT_PROMPT_CLEAN=""
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%}*%{$fg[green]%}"
+ZSH_THEME_GIT_PROMPT_UNTRACKED="%{$fg[green]%}?"
+
