@@ -18,7 +18,6 @@ theme_precmd () {
 }
 
 setopt prompt_subst
-#PROMPT='%B%F{magenta}%c \
 PROMPT='%B%F%{$fg[green]%}%c\
 %B%F{green}${vcs_info_msg_0_}%B%F{red} %(!.#.»)%{$reset_color%} '
 
