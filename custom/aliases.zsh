@@ -1,8 +1,6 @@
 # Add yourself some shortcuts to projects you often work on
 # Example:
 #
-# brainstormr=/Users/robbyrussell/Projects/development/planetargon/brainstormr
-#
 
 # heroku
 alias hpush='git push heroku master'
@@ -12,13 +10,13 @@ alias hmig='heroku run rake db:migrate'
 
 # general shortcuts
 alias ..='cd ..'
-alias sites='cd ~/Sites'
+alias sites='cd ~/Project/Sites'
 alias log_cleanup='sudo rm -rf /private/var/log/asl/*'
 
 # projects
-alias odap='cd ~/Sites/odap'
-alias temp='cd ~/Sites/temp3'
-alias s='cd ~/Sites/'
+alias odap='cd ~/Project/Sites/odap'
+alias temp='cd ~/Project/Sites/temp3'
+alias s='cd ~/Project/Sites/'
 alias v='vim'
 
 
