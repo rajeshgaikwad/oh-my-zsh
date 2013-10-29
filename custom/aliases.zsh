@@ -4,9 +4,12 @@
 
 # heroku
 alias hpush='git push heroku master'
-alias hcon='heroku run consloe'
+alias hcon='heroku run console'
 alias hps='heroku ps'
 alias hmig='heroku run rake db:migrate'
+alias hlogs='heroku logs -t'
+alias hpromote='heroku pipeline:promote'
+
 
 # general shortcuts
 alias ..='cd ..'
@@ -72,3 +75,4 @@ alias brc="bundle exec rails c"
 alias railss="rails s"
 alias railsc="rails c"
 alias railsdb="rails dbconsole"
+
