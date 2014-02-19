@@ -9,10 +9,12 @@ alias hps='heroku ps'
 alias hmig='heroku run rake db:migrate'
 alias hlogs='heroku logs -t'
 alias hpromote='heroku pipeline:promote'
+alias hpd='heroku pipeline:diff'
 
 
 # general shortcuts
 alias ..='cd ..'
+alias ...='cd ../..'
 alias sites='cd ~/Project/Sites'
 alias log_cleanup='sudo rm -rf /private/var/log/asl/*'
 
@@ -22,6 +24,23 @@ alias temp='cd ~/Project/Sites/temp3'
 alias s='cd ~/Project/Sites/'
 alias v='vim'
 
+
+## Node Aliases
+alias nw='node web.js'
+alias na='node app.js'
+
+## Grunt Aliases
+alias grw='grunt watch'
+alias grc='grunt connect'
+alias gru='grunt upload'
+alias grnm='grunt nodemon'
+alias gr='grunt'
+
+## Cucumber Aliases
+alias cu='cucumber'
+alias cu_ch='cucumber LOCALTEST=true  BROWSER=chrome'
+alias cu_s='cucumber LOCALTEST=true  BROWSER=safari'
+alias cu_f='cucumber LOCALTEST=true'
 
 ## Git Aliases
 alias gs='git status '
