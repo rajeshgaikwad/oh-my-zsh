@@ -37,10 +37,14 @@ alias grnm='grunt nodemon'
 alias gr='grunt'
 
 ## Cucumber Aliases
-alias cu='cucumber'
-alias cu_ch='cucumber LOCALTEST=true  BROWSER=chrome'
-alias cu_s='cucumber LOCALTEST=true  BROWSER=safari'
-alias cu_f='cucumber LOCALTEST=true'
+alias cu_l='cucumber features/home_page_local.feature'
+alias cu_ch_l='cucumber LOCALTEST=true  BROWSER=chrome features/home_page_local.feature'
+alias cu_s_l='cucumber LOCALTEST=true  BROWSER=safari features/home_page_local.feature'
+alias cu_f_l='cucumber LOCALTEST=true features/home_page_local.feature'
+alias cu='cucumber '
+alias cu_ch='cucumber LOCALTEST=true  BROWSER=chrome '
+alias cu_s='cucumber LOCALTEST=true  BROWSER=safari '
+alias cu_f='cucumber LOCALTEST=true '
 
 ## Git Aliases
 alias gs='git status '
