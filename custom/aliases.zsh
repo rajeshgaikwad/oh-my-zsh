@@ -16,12 +16,17 @@ alias hpd='heroku pipeline:diff'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias sites='cd ~/Project/Sites'
+alias tools='cd ~/Project/Tools'
 alias log_cleanup='sudo rm -rf /private/var/log/asl/*'
 
 # projects
 alias odap='cd ~/Project/Sites/odap'
+alias fp='cd ~/Project/Sites/staging.fingerprint'
+alias oda_tr='cd ~/Project/Sites/odaTrackerJs'
+alias deleted='cd ~/Project/Sites/to-be-deleted'
 alias temp='cd ~/Project/Sites/temp3'
 alias s='cd ~/Project/Sites/'
+alias t='cd ~/Project/Tools'
 alias v='vim'
 
 
