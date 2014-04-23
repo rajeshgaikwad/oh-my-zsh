@@ -10,6 +10,8 @@ alias hmig='heroku run rake db:migrate'
 alias hlogs='heroku logs -t'
 alias hpromote='heroku pipeline:promote'
 alias hpd='heroku pipeline:diff'
+alias apush='git push azure master'
+alias alogs='azure site log tail odaserver'
 
 
 # general shortcuts
