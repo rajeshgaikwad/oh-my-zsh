@@ -12,6 +12,9 @@ alias hpromote='heroku pipeline:promote'
 alias hpd='heroku pipeline:diff'
 alias apush='git push azure master'
 alias alogs='azure site log tail odaserver'
+alias jlogs='jitsu logs tail'    
+alias jpush='jitsu deploy'
+alias npatch='npm version patch'
 
 
 # general shortcuts
