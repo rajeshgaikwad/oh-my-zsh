@@ -38,6 +38,7 @@ alias v='vim'
 ## Node Aliases
 alias nw='node web.js'
 alias na='node app.js'
+alias ni='npm i'
 
 ## Grunt Aliases
 alias grw='grunt watch'
