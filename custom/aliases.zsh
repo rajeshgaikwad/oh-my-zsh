@@ -31,7 +31,8 @@ alias oda_tr='cd ~/Project/Sites/odaTrackerJs'
 alias deleted='cd ~/Project/Sites/to-be-deleted'
 alias temp='cd ~/Project/Sites/temp3'
 alias s='cd ~/Project/Sites/'
-alias t='cd ~/Project/Tools'
+alias tools='cd ~/Project/Tools'
+alias t='grunt test:server'
 alias v='vim'
 
 
