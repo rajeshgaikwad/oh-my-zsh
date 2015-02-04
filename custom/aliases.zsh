@@ -46,6 +46,7 @@ alias grw='grunt watch'
 alias grc='grunt connect'
 alias gru='grunt upload'
 alias grnm='grunt nodemon'
+alias grts='grunt test:server'
 alias gr='grunt'
 
 ## Cucumber Aliases
@@ -74,9 +75,9 @@ alias gpush='git push origin master'
 # Unix
 alias tlf="tail -f"
 alias l='ls -lAhrt'
-alias ll='ls -lart'
-alias la='ls -Art'
-alias ls='ls -lsrt'
+alias ll='ls -lhart'
+alias la='ls -hArt'
+alias ls='ls -lhsrt'
 alias path='echo -e ${PATH//:/\\n}'
 alias now='date +"%T'
 alias nowtime=now
