@@ -24,9 +24,8 @@ alias log_cleanup='sudo rm -rf /private/var/log/asl/*'
 
 # projects
 alias fp='cd ~/Project/Sites/staging.fingerprint'
-alias oda_tr='cd ~/Project/Sites/odaTrackerJs'
+alias od='cd ~/Project/Sites/staging.fingerprint'
 alias deleted='cd ~/Project/Sites/to-be-deleted'
-alias temp='cd ~/Project/Sites/temp3'
 alias s='cd ~/Project/Sites/'
 alias tools='cd ~/Project/Tools'
 alias t='grunt test:server'
@@ -34,8 +33,6 @@ alias v='vim'
 
 
 ## Node Aliases
-alias nw='node web.js'
-alias na='node app.js'
 alias ni='npm i'
 
 ## Grunt Aliases
