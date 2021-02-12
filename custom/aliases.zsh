@@ -30,37 +30,23 @@ alias s='cd ~/Project/Sites/'
 alias tools='cd ~/Project/Tools'
 alias t='grunt test:server'
 alias v='vim'
+alias gow='cd /Users/Rajesh/Go/src/github.com/rajeshgaikwad/scratch'
+alias got='cd /Users/Rajesh/Go/src/github.com/rajeshgaikwad/scratch'
 
 
 ## Node Aliases
 alias ni='npm i'
 
-## Grunt Aliases
-alias grw='grunt watch'
-alias grc='grunt connect'
-alias gru='grunt upload'
-alias grnm='grunt nodemon'
-alias grts='grunt test:server'
-alias gr='grunt'
-
-## Cucumber Aliases
-alias cu_l='cucumber features/home_page_local.feature'
-alias cu_ch_l='cucumber LOCALTEST=true  BROWSER=chrome features/home_page_local.feature'
-alias cu_s_l='cucumber LOCALTEST=true  BROWSER=safari features/home_page_local.feature'
-alias cu_f_l='cucumber LOCALTEST=true features/home_page_local.feature'
-alias cu='cucumber '
-alias cu_ch='cucumber LOCALTEST=true  BROWSER=chrome '
-alias cu_s='cucumber LOCALTEST=true  BROWSER=safari '
-alias cu_f='cucumber LOCALTEST=true '
 
 ## Git Aliases
 alias gs='git status '
 alias ga='git add '
 alias gc='git commit'
-alias gd='git diff'
+alias gdc='git diff'
+alias gd="git diff "
+alias gdd="git diff -w "
 alias gk='gitk --all&'
 alias gx='gitx --all'
-alias got='git '
 alias gpush='git push origin master'
 
 
